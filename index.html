@@ -13,14 +13,15 @@
 <meta property="og:site_name" content="SaNdent">
 <meta property="og:title" content="SaNdent – stomatologia w Sopocie">
 <meta property="og:description" content="Implanty, zęby w 1 dzień, protezy, leczenie kanałowe pod mikroskopem i estetyka uśmiechu. Villa Helena Nova, Sopot.">
-<meta property="og:image" content="https://sandent.pl/wp-content/uploads/2026/05/pixelcut-export19-2.jpeg">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M8 60V30a24 24 0 0 1 48 0v30z' fill='%2312343B'/%3E%3Ccircle cx='38' cy='34' r='7' fill='%23E39B2D'/%3E%3Cpath d='M8 44h48' stroke='%23EEF3F2' stroke-width='3'/%3E%3C/svg%3E">
+<meta property="og:image" content="https://sandent.pl/wp-content/uploads/2024/06/pixelcut-export25.jpeg">
+<link rel="icon" type="image/png" href="https://sandent.pl/wp-content/uploads/2026/06/logosandent.png">
+<link rel="apple-touch-icon" href="https://sandent.pl/wp-content/uploads/2026/06/logosandent.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400..600&family=Onest:wght@400..700&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://sandent.pl">
-<link rel="preload" as="image" href="https://sandent.pl/wp-content/uploads/2026/05/pixelcut-export19-2.jpeg" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-lekarki.jpg" fetchpriority="high">
 
 <script>
   /* =========================================================
@@ -46,7 +47,7 @@
   "@type": "Dentist",
   "name": "Centrum Stomatologiczne SaNdent",
   "url": "https://sandent.pl/",
-  "image": "https://sandent.pl/wp-content/uploads/2026/05/pixelcut-export19-2.jpeg",
+  "image": "https://sandent.pl/wp-content/uploads/2024/06/pixelcut-export25.jpeg",
   "telephone": "+48 512 115 405",
   "email": "recepcja@sandent.pl",
   "priceRange": "270–4000 PLN",
@@ -137,9 +138,8 @@ h3{font-size:1.125rem;line-height:1.35;font-weight:600;letter-spacing:-.005em}
 .header.is-scrolled{border-bottom-color:var(--line)}
 .header .wrap{display:flex;align-items:center;gap:28px;min-height:72px}
 .brand{display:inline-flex;align-items:center;gap:10px;text-decoration:none;color:var(--baltic)}
-.brand-mark{width:30px;height:36px}
-.brand-name{font-family:var(--serif);font-size:1.6rem;font-weight:500;letter-spacing:-.01em;line-height:1}
-.brand-name b{font-weight:600}
+.logo{height:50px;width:auto;filter:brightness(0) saturate(100%) invert(36%) sepia(61%) saturate(1429%) hue-rotate(347deg) brightness(96%) contrast(88%)}
+.logo-light{filter:brightness(0) invert(1)}
 .nav{display:flex;gap:26px;margin-left:auto}
 .nav a{color:var(--ink);text-decoration:none;font-weight:500;font-size:.96rem}
 .nav a:hover{color:var(--sea)}
@@ -160,13 +160,13 @@ h3{font-size:1.125rem;line-height:1.35;font-weight:600;letter-spacing:-.005em}
 .arch-fig{position:relative;justify-self:end;width:100%;max-width:430px}
 .arch-fig::before{content:"";position:absolute;inset:-18px -18px 18px 18px;border:1.5px solid rgba(18,52,59,.22);border-radius:999px 999px 0 0;pointer-events:none}
 .arch-frame{position:relative;aspect-ratio:400/530;border-radius:999px 999px 20px 20px;overflow:hidden;box-shadow:0 30px 50px -24px rgba(18,52,59,.45)}
-.arch-frame img{object-position:74% 30%}
+.arch-frame img{object-position:50% 50%}
 .arch-card{position:absolute;left:-48px;bottom:40px;display:flex;gap:12px;align-items:center;background:var(--paper);border-radius:18px;padding:14px 18px 14px 14px;box-shadow:var(--shadow);max-width:280px}
 .arch-card .ic{width:44px;height:44px;border-radius:12px;background:var(--mist);color:var(--sea);display:flex;align-items:center;justify-content:center;flex:none}
 .arch-card .ic .icon{width:22px;height:22px}
 .arch-card strong{display:block;font-size:.95rem;color:var(--baltic);line-height:1.3}
 .arch-card span{font-size:.85rem;color:var(--muted)}
-.arch-tag{position:absolute;top:96px;right:-14px;background:var(--baltic);color:var(--on-dark);border-radius:999px;padding:8px 14px;font-size:.85rem;font-weight:500;display:flex;align-items:center;gap:7px;box-shadow:var(--shadow)}
+.arch-tag{position:absolute;top:44px;right:-14px;background:var(--baltic);color:var(--on-dark);border-radius:999px;padding:8px 14px;font-size:.85rem;font-weight:500;display:flex;align-items:center;gap:7px;box-shadow:var(--shadow)}
 .arch-tag .icon{width:15px;height:15px;color:var(--amber)}
 
 @media (prefers-reduced-motion:no-preference){
@@ -211,7 +211,7 @@ h3{font-size:1.125rem;line-height:1.35;font-weight:600;letter-spacing:-.005em}
 .imp-top .lead{margin-top:20px}
 .imp-top .btn{margin-top:30px}
 .imp-photo{position:relative;border-radius:24px;overflow:hidden;aspect-ratio:3/2}
-.imp-photo img{object-position:60% 40%}
+.imp-photo img{object-position:50% 50%}
 .pill{position:absolute;left:16px;bottom:16px;display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.94);color:var(--baltic);border-radius:999px;padding:8px 14px;font-size:.85rem;font-weight:600}
 .pill .icon{width:16px;height:16px;color:var(--sea)}
 .options{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:56px}
@@ -250,7 +250,7 @@ h3{font-size:1.125rem;line-height:1.35;font-weight:600;letter-spacing:-.005em}
 .dent-foot p{color:var(--baltic);font-weight:600}
 
 /* ---------- gallery ---------- */
-.gallery{display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:240px 240px;gap:14px}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:250px 250px;gap:14px}
 .gallery figure{position:relative;border-radius:20px;overflow:hidden;margin:0}
 .gallery figure.big{grid-column:span 2;grid-row:span 2}
 .gallery figcaption{position:absolute;left:12px;bottom:12px;background:rgba(18,52,59,.82);color:#fff;font-size:.8rem;font-weight:500;padding:6px 11px;border-radius:999px;backdrop-filter:blur(4px)}
@@ -264,7 +264,7 @@ h3{font-size:1.125rem;line-height:1.35;font-weight:600;letter-spacing:-.005em}
 .tech-photos .a{border-radius:999px 999px 22px 22px;overflow:hidden;aspect-ratio:4/5;width:78%}
 .tech-photos .a img{object-position:24% 50%}
 .tech-photos .b{position:absolute;right:0;bottom:0;width:52%;aspect-ratio:4/3;border-radius:20px;overflow:hidden;border:6px solid var(--paper);box-shadow:var(--shadow)}
-.tech-photos .b img{object-position:35% 40%}
+.tech-photos .b img{object-position:50% 50%}
 .tech .lead{margin-top:18px}
 .gear{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:30px}
 .gear li{background:var(--mist);border-radius:18px;padding:18px}
@@ -317,7 +317,8 @@ h3{font-size:1.125rem;line-height:1.35;font-weight:600;letter-spacing:-.005em}
 .doc p{color:var(--muted);font-size:.95rem}
 
 /* ---------- FAQ ---------- */
-.faq{max-width:860px}
+.faq-wrap{display:grid;grid-template-columns:1fr 360px;gap:72px;align-items:start}
+.faq-photo{margin:0;border-radius:999px 999px 22px 22px;overflow:hidden;aspect-ratio:4/5}
 .faq details{border-top:1px solid var(--line)}
 .faq details:last-child{border-bottom:1px solid var(--line)}
 .faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:24px;align-items:center;padding:20px 0;font-weight:600;font-size:1.06rem;color:var(--baltic)}
@@ -430,17 +431,19 @@ fieldset.field legend{padding:0}
   .tech-photos{max-width:520px}
   .whitening{max-width:440px}
   .footer .wrap{grid-template-columns:1fr 1fr}
+  .faq-wrap{grid-template-columns:1fr;gap:40px}
+  .faq-photo{order:-1;max-width:520px;aspect-ratio:3/2;border-radius:22px}
 }
 @media (max-width:640px){
   :root{--gutter:16px}
   body{font-size:16px;padding-bottom:76px}
   .topline .hide-sm{display:none}
   .topline .wrap{gap:16px;font-size:.8rem}
-  .brand-name{font-size:1.45rem}
+  .header .logo{height:42px}
   .hero-actions .btn{flex:1 1 100%}
   .arch-fig{max-width:320px}
   .arch-card{left:-10px;bottom:22px;max-width:250px;padding:10px 14px 10px 10px}
-  .arch-tag{right:-6px;top:70px}
+  .arch-tag{right:-6px;top:30px}
   .perks{margin-top:-80px}
   .perks ul{grid-template-columns:1fr 1fr;padding:6px}
   .perks li{padding:12px 10px;gap:10px}
@@ -546,8 +549,7 @@ fieldset.field legend{padding:0}
 <header class="header" id="top">
   <div class="wrap">
     <a class="brand" href="#top" aria-label="SaNdent – początek strony">
-      <svg class="brand-mark" viewBox="0 0 30 36" aria-hidden="true"><path d="M1 35V15a14 14 0 0 1 28 0v20z" fill="#12343B"/><circle cx="19" cy="17" r="4.2" fill="#E39B2D"/><path d="M1 25.5h28" stroke="#EEF3F2" stroke-width="1.6"/></svg>
-      <span class="brand-name">Sa<b>N</b>dent</span>
+      <img class="logo" src="https://sandent.pl/wp-content/uploads/2026/05/Remove-bg.ai_1717083986690-1.png" width="244" height="100" alt="SaNdent">
     </a>
     <nav class="nav" id="nav" aria-label="Główna nawigacja">
       <a href="#zabiegi">Zabiegi</a>
@@ -582,7 +584,7 @@ fieldset.field legend{padding:0}
 
     <figure class="arch-fig">
       <div class="arch-frame">
-        <img class="photo" src="https://sandent.pl/wp-content/uploads/2026/05/pixelcut-export19-2.jpeg" width="1280" height="960" alt="Lekarka stomatolog przy fotelu w gabinecie SaNdent" fetchpriority="high">
+        <img class="photo" src="img/hero-lekarki.jpg" width="900" height="1193" alt="Lekarki SaNdent omawiają plan leczenia" fetchpriority="high">
       </div>
       <div class="arch-tag"><svg class="icon"><use href="#i-pin"/></svg>Villa Helena Nova</div>
       <div class="arch-card">
@@ -680,8 +682,8 @@ fieldset.field legend{padding:0}
         <a class="btn btn-primary" href="#kontakt">Umów konsultację implantologiczną</a>
       </div>
       <figure class="imp-photo">
-        <img class="photo" src="https://sandent.pl/wp-content/uploads/2026/05/image9.png" width="1240" height="827" alt="Lekarka wykonuje pacjentowi zdjęcie pantomograficzne" loading="lazy" decoding="async">
-        <figcaption class="pill"><svg class="icon"><use href="#i-xray"/></svg>Pantomogram na miejscu</figcaption>
+        <img class="photo" src="img/rtg-pantomograf.jpg" width="1400" height="933" alt="Aparat RTG Schick i pantomograf w gabinecie SaNdent" loading="lazy" decoding="async">
+        <figcaption class="pill"><svg class="icon"><use href="#i-xray"/></svg>Cyfrowe RTG i&nbsp;pantomograf na miejscu</figcaption>
       </figure>
     </div>
 
@@ -784,9 +786,7 @@ fieldset.field legend{padding:0}
     </div>
     <div class="gallery">
       <figure class="big"><img class="photo" src="https://sandent.pl/wp-content/uploads/2026/05/image3.png" width="1240" height="827" alt="Lekarki podczas leczenia pacjenta" loading="lazy" decoding="async"><figcaption>Leczenie w&nbsp;duecie z&nbsp;asystą</figcaption></figure>
-      <figure><img class="photo" src="https://sandent.pl/wp-content/uploads/2026/05/pixelcut-export12-scaled.jpeg" width="2560" height="1575" alt="Recepcja Centrum Stomatologicznego SaNdent" loading="lazy" decoding="async"><figcaption>Recepcja</figcaption></figure>
       <figure><img class="photo" src="https://sandent.pl/wp-content/uploads/2026/05/pixelcut-export14-1.jpeg" width="1920" height="1280" alt="Gabinet zabiegowy z fotelem dentystycznym" loading="lazy" decoding="async"><figcaption>Gabinet</figcaption></figure>
-      <figure><img class="photo" src="https://sandent.pl/wp-content/uploads/2026/05/pixelcut-export20-1.jpeg" width="1280" height="960" alt="Konsultacja z pacjentem w gabinecie" loading="lazy" decoding="async"><figcaption>Konsultacja</figcaption></figure>
       <figure><img class="photo" src="https://sandent.pl/wp-content/uploads/2026/05/image1.png" width="1240" height="827" alt="Pacjent na fotelu stomatologicznym" loading="lazy" decoding="async"><figcaption>Komfortowe fotele</figcaption></figure>
     </div>
     <ul class="comfort">
@@ -804,7 +804,7 @@ fieldset.field legend{padding:0}
     <div class="tech">
       <div class="tech-photos">
         <div class="a"><img class="photo" src="https://sandent.pl/wp-content/uploads/2026/06/photo_6_2026-06-13_00-39-27.jpg" width="1280" height="855" alt="Mikroskop zabiegowy w gabinecie SaNdent" loading="lazy" decoding="async"></div>
-        <div class="b"><img class="photo" src="https://sandent.pl/wp-content/uploads/2026/05/image5.png" width="1240" height="827" alt="Lekarka ogląda cyfrowe zdjęcie RTG" loading="lazy" decoding="async"></div>
+        <div class="b"><img class="photo" src="img/unit-stomatologiczny.jpg" width="1000" height="750" alt="Unit stomatologiczny Stern Weber z końcówkami" loading="lazy" decoding="async"></div>
       </div>
       <div>
         <h2 class="display">Precyzja pod mikroskopem</h2>
@@ -913,6 +913,7 @@ fieldset.field legend{padding:0}
     <div class="head">
       <h2 class="display">Częste pytania</h2>
     </div>
+    <div class="faq-wrap">
     <div class="faq">
       <details>
         <summary>Ile kosztuje implant?<svg class="icon"><use href="#i-plus"/></svg></summary>
@@ -934,6 +935,10 @@ fieldset.field legend{padding:0}
         <summary>Czy mogę rozłożyć leczenie na raty?<svg class="icon"><use href="#i-plus"/></svg></summary>
         <p>Tak, przez MediRaty – wniosek złożysz online, bez wychodzenia z&nbsp;domu.</p>
       </details>
+    </div>
+    <figure class="faq-photo">
+      <img class="photo" src="img/gabinet.jpg" width="800" height="1000" alt="Gabinet zabiegowy SaNdent z fotelem stomatologicznym" loading="lazy" decoding="async">
+    </figure>
     </div>
   </div>
 </section>
@@ -1043,8 +1048,7 @@ fieldset.field legend{padding:0}
   <div class="wrap">
     <div>
       <a class="brand" href="#top" aria-label="SaNdent – początek strony">
-        <svg class="brand-mark" viewBox="0 0 30 36" aria-hidden="true"><path d="M1 35V15a14 14 0 0 1 28 0v20z" fill="#EEF3F2"/><circle cx="19" cy="17" r="4.2" fill="#E39B2D"/><path d="M1 25.5h28" stroke="#0D272D" stroke-width="1.6"/></svg>
-        <span class="brand-name">Sa<b>N</b>dent</span>
+        <img class="logo logo-light" src="https://sandent.pl/wp-content/uploads/2026/05/Remove-bg.ai_1717083986690-1.png" width="244" height="100" alt="SaNdent" loading="lazy">
       </a>
       <div class="socials">
         <a href="https://www.facebook.com/dentystasandent/" target="_blank" rel="noopener" aria-label="Facebook"><svg class="icon"><use href="#i-fb"/></svg></a>
